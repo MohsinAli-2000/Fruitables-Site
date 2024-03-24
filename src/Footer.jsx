@@ -19,7 +19,7 @@ const Footer = () => {
               Fresh products
             </span>
           </div>
-          <div className="mt-4 md:mt-0">
+          <div className="mt-4 md:mt-0 flex">
             <input
               className="max-w-80 border border-green-500 rounded-tl-full rounded-bl-full px-4 py-2 text-base md:text-xl"
               placeholder="Enter email"
