@@ -105,12 +105,12 @@ const Footer = () => {
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Account</h5>
-            <span className="opacity-60">My Account</span>
-            <span className="opacity-60">Shop Details</span>
-            <span className="opacity-60">ShoppingCart</span>
-            <span className="opacity-60">Wishlist</span>
-            <span className="opacity-60">Order History</span>
-            <span className="opacity-60">Intenational Order</span>
+            <a href="#" className="opacity-60 hover:text-orange-400">My Account</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Shop Details</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">ShoppingCart</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Wishlist</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Order History</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Intenational Order</a>
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Contact</h5>
