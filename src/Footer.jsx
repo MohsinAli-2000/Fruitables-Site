@@ -119,7 +119,7 @@ const Footer = () => {
             <span className="opacity-60">Phone: +0123 4567 8910</span>
             <span className="opacity-60">Payment Accepted</span>
             <span className="mt-6">
-              <img src="./public/payment-methods.png" alt="image" />
+              <img src="/payment-methods.png" alt="image" />
             </span>
           </div>
         </div>
