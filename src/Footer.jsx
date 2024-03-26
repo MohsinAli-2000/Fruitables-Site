@@ -84,33 +84,33 @@ const Footer = () => {
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Shop Info</h5>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-orange-400" href="#">
               About Us
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-orange-400" href="#">
               Contact Us
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-orange-400" href="#">
               Privacy Policy
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-orange-400" href="#">
               Terms & Conditions
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-orange-400" href="#">
               Returns Policy
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-orange-400" href="#">
               FAQs & Help
             </a>
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Account</h5>
-            <span className="opacity-60">My Account</span>
-            <span className="opacity-60">Shop Details</span>
-            <span className="opacity-60">ShoppingCart</span>
-            <span className="opacity-60">Wishlist</span>
-            <span className="opacity-60">Order History</span>
-            <span className="opacity-60">Intenational Order</span>
+            <a href="#" className="opacity-60 hover:text-orange-400">My Account</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Shop Details</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">ShoppingCart</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Wishlist</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Order History</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Intenational Order</a>
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Contact</h5>
@@ -119,7 +119,7 @@ const Footer = () => {
             <span className="opacity-60">Phone: +0123 4567 8910</span>
             <span className="opacity-60">Payment Accepted</span>
             <span className="mt-6">
-              <img src="./public/payment-methods.png" alt="image" />
+              <img src="/payment-methods.png" alt="image" />
             </span>
           </div>
         </div>
