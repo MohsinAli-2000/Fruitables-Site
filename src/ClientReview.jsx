@@ -1,34 +1,37 @@
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { faLock, faStar } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import PropTypes from "prop-types";
 
-const ClientReview = () => {
+const ReviewCard = ({ imageSrc = "/orange.jpg", title = "Organic Orange" }) => {
   return (
-    <div className="w-full md:max-w-xl bg-gray-200 rounded-lg p-4 md:p-6 my-2 md:my-4 mx-2 md:mx-4">
-      <p className="text-base md:text-lg lg:text-xl opacity-60 break-words mb-2 md:mb-3">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus,
-        numquam sapiente
-      </p>
-      <hr className="border-t border-orange-400 my-2 md:my-3" />
-      <div className="flex flex-col md:flex-row items-center md:items-start mt-2 md:mt-3">
-        <img className="rounded-lg w-24 h-24 md:w-32 md:h-32 mr-0 md:mr-6 mb-2 md:mb-0" src="/Client-image.jpg" alt="image" />
-        <div className="flex flex-col">
-          <span className="text-lg md:text-xl lg:text-2xl font-semibold opacity-70 my-2 md:my-4">
-            Client Name
-          </span>
-          <span className="text-base md:text-lg lg:text-xl font-semibold opacity-50 my-1 md:my-2">
-            Profession
-          </span>
-          <div className="text-green-600 flex items-center">
-            <FontAwesomeIcon icon={faStar} className="mr-1" />
-            <FontAwesomeIcon icon={faStar} className="mr-1" />
-            <FontAwesomeIcon icon={faStar} className="mr-1" />
-            <FontAwesomeIcon icon={faStar} className="mr-1" />
+    <div className="flex flex-col justify-between bg-gray-200 border rounded-lg p-4 mx-2 my-2 md:flex-row md:p-6 lg:flex-none">
+      <div className="flex-shrink-0 w-36 h-36 md:w-48 md:h-48 border rounded-full overflow-hidden">
+        <img className="object-cover w-full h-full" src={imageSrc} alt="Orange" />
+      </div>
+      <div className="flex flex-col md:ml-4 md:mt-0 md:text-left">
+        <h4 className="text-lg md:text-xl lg:text-2xl opacity-80 font-semibold">{title}</h4>
+        <div className="flex flex-col items-center md:flex-row md:items-center">
+          <p className="text-sm md:text-base font-semibold text-green-500 mt-2 md:mt-4 md:mr-4">
+            <FontAwesomeIcon icon={faStar} /> <FontAwesomeIcon icon={faStar} />{" "}
+            <FontAwesomeIcon icon={faStar} /> <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
-          </div>
+          </p>
+          <p className="text-sm md:text-base font-semibold text-gray-500 mt-2 md:mt-4">$3.12</p>
         </div>
+        <a
+          className="text-sm md:text-base block mt-2 md:mt-4 text-green-600 border border-orange-400 hover:bg-orange-400 hover:text-white px-4 py-3 rounded-full"
+          href="#"
+        >
+          <FontAwesomeIcon icon={faLock} className="mr-2" /> Add to Cart
+        </a>
       </div>
     </div>
   );
 };
 
-export default ClientReview;
+ReviewCard.propTypes = {
+  title: PropTypes.string,
+  imageSrc: PropTypes.string,
+};
+
+export default ReviewCard;
