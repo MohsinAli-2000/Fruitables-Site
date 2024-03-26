@@ -62,7 +62,7 @@ function App() {
         <FruitCard imageSrc="/orange.jpg" title="Orange" />
         <FruitCard imageSrc="/grapes.jpg" title="Grapes" />
         <FruitCard imageSrc="/rasberries.jpg" title="Rasberries" />
-        
+        <FruitCard imageSrc="/grapes.jpg" title="Grapes" />
       </div>
       <div className="flex flex-wrap justify-center items-center my-4 mx-16">
         <BonusCard />
