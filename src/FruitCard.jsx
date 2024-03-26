@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import PropTypes from "prop-types";
 
 const FruitCard = ({
-  imageSrc = "../public/rasberries.jpg",
+  imageSrc = "/rasberries.jpg",
   title = "Raspberry",
   altText = "Image",
 }) => {
