@@ -9,7 +9,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Topbar from "./Topbar";
 import Menu from "./Menu";
-import FruitCard from "./FruitCard";
+
 import BonusCard from "./BonusCard";
 
 import Section7 from "./Section7";
@@ -53,17 +53,7 @@ function App() {
         />
       </div>
       <Menu />
-      <div className="flex flex-wrap mx-16 justify-center">
-        <FruitCard />
-        <FruitCard imageSrc="/grapes.jpg" title="Grapes" />
-        <FruitCard imageSrc="/strawberry.jpg" title="Strawberry" />
-        <FruitCard imageSrc="/apricots.jpg" title="Apricots" />
-        <FruitCard imageSrc="/banana.jpg" title="Banana" />
-        <FruitCard imageSrc="/orange.jpg" title="Orange" />
-        <FruitCard imageSrc="/grapes.jpg" title="Grapes" />
-        <FruitCard imageSrc="/rasberries.jpg" title="Rasberries" />
-        
-      </div>
+
       <div className="flex flex-wrap justify-center items-center my-4 mx-16">
         <BonusCard />
         <BonusCard
