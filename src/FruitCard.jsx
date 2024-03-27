@@ -6,10 +6,11 @@ const FruitCard = ({
   imageSrc = "/rasberries.jpg",
   title = "Raspberry",
   altText = "Image",
+  category,
 }) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center border border-orange-400 rounded-xl my-6 mx-2 sm:mx-1 md:mx-2 lg:mx-3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-64 hover:scale-105 hover:shadow-xl bg-gray-100 transition-transform duration-600 relative">
+      <div className="flex flex-col justify-center items-center border border-orange-400 rounded-xl my-6 mx-2 sm:mx-1 md:mx-2 lg:mx-3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-72 hover:scale-105 hover:shadow-xl bg-gray-100 transition-transform duration-600 relative">
         <img
           className="w-full rounded-tl-lg rounded-tr-lg hover:scale-105 transition-transform duration-600"
           height={100}
@@ -17,7 +18,7 @@ const FruitCard = ({
           alt={altText}
         />
         <span className="absolute top-2 left-2 z-10 opacity-100 bg-orange-400 text-white p-1 px-6 rounded text-xl font-semibold transition-transform duration-600">
-          Fruit
+          {category}
         </span>
         <h2 className="text-3xl opacity-80 font-semibold mt-2">{title}</h2>
         <p className="text-lg opacity-85 text-center my-2 px-2 sm:px-4 md:px-6 lg:px-8">
@@ -42,6 +43,7 @@ FruitCard.propTypes = {
   imageSrc: PropTypes.string,
   title: PropTypes.string,
   altText: PropTypes.string,
+  category: PropTypes.string,
 };
 
 export default FruitCard;
