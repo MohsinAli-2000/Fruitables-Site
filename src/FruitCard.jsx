@@ -9,7 +9,7 @@ const FruitCard = ({
 }) => {
   return (
     <>
-      <div className="flex flex-col justify-center items-center border border-orange-400 rounded-xl my-6 mx-2 sm:mx-1 md:mx-2 lg:mx-3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-72 hover:scale-105 hover:shadow-xl bg-gray-100 transition-transform duration-600 relative">
+      <div className="flex flex-col justify-center items-center border border-orange-400 rounded-xl my-6 mx-2 sm:mx-1 md:mx-2 lg:mx-3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-64 hover:scale-105 hover:shadow-xl bg-gray-100 transition-transform duration-600 relative">
         <img
           className="w-full rounded-tl-lg rounded-tr-lg hover:scale-105 transition-transform duration-600"
           height={100}
