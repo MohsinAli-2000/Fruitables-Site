@@ -9,62 +9,60 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = () => {
   return (
     <>
-      <div className="w-full bg-black opacity-80 py-4">
+      <div className="w-full bg-black opacity-80 mt-8 py-4">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="text-center md:text-left">
-            <h1 className="text-xl md:text-2xl font-semibold text-green-500 my-1">
+            <h1 className="text-xl md:text-2xl font-semibold text-custom-green my-1">
               Fruitables
             </h1>
-            <span className="text-lg font-semibold text-orange-400 my-1">
+            <span className="text-lg font-semibold text-custom-orange my-1">
               Fresh products
             </span>
           </div>
-          <div className="mt-4 md:mt-0 flex">
+          <div className="mt-4  md:mt-0 flex flex-col sm:flex-row">
             <input
-              className="max-w-80 border border-green-500 rounded-tl-full rounded-bl-full px-4 py-2 text-base md:text-xl"
+              className="w-full min-w-10 border border-green-500 border-collapse outline-none rounded-tl-full rounded-bl-full px-4 py-2 text-base md:text-xl mr-0 my-2"
               placeholder="Enter email"
               type="text"
             />
-            <button className="w-fit text-white font-semibold hover:bg-orange-400 bg-green-500 rounded-tr-full rounded-br-full px-6 py-2 text-base md:text-xl ml-2 md:ml-4">
+            <button className="w-full sm:w-fit min-w-5 text-white font-semibold hover:bg-custom-orange bg-custom-green rounded-tr-full rounded-br-full px-6 py-2 text-base md:text-xl ml-0 my-2">
               Subscribe Now
             </button>
           </div>
+
           <div className="flex mt-4 md:mt-0">
-            <div>
-              <a
-                href="#"
-                className="text-orange-400 mx-1 border border-orange-400 p-2 rounded-full hover:text-black hover:bg-orange-400"
-              >
+            <div className="h-9 w-9 flex justify-center items-center border border-custom-orange rounded-full hover:text-black hover:bg-custom-orange p-2 mx-2 duration-1000">
+              <a href="#" className="text-custom-orange hover:text-black">
                 <FontAwesomeIcon icon={faTwitter} />
               </a>
             </div>
-            <div>
+            <div className="h-9 w-9 flex justify-center items-center border border-custom-orange rounded-full hover:text-black hover:bg-custom-orange p-2 mx-2">
               <a
                 href="#"
-                className="text-orange-400 mx-1 border border-orange-400 p-2 rounded-full hover:text-black hover:bg-orange-400"
+                className="text-custom-orange hover:text-black duration-1000"
               >
                 <FontAwesomeIcon icon={faFacebookF} />
               </a>
             </div>
-            <div>
+            <div className="h-9 w-9 flex justify-center items-center border border-custom-orange rounded-full hover:text-black hover:bg-custom-orange p-2 mx-2">
               <a
                 href="#"
-                className="text-orange-400 mx-1 border border-orange-400 p-2 rounded-full hover:text-black hover:bg-orange-400"
+                className="text-custom-orange hover:text-black duration-1000"
               >
                 <FontAwesomeIcon icon={faYoutube} />
               </a>
             </div>
-            <div>
+            <div className="h-9 w-9 flex justify-center items-center border border-custom-orange rounded-full hover:text-black hover:bg-custom-orange p-2 mx-2">
               <a
                 href="#"
-                className="text-orange-400 mx-1 border border-orange-400 p-2 rounded-full hover:text-black hover:bg-orange-400"
+                className="text-custom-orange hover:text-black duration-1000"
               >
                 <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
             </div>
           </div>
         </div>
-        <hr className="border border-b-1 mx-16 my-4 border-orange-400" />
+        <hr className="border border-b-1 mx-16 my-4 border-custom-orange" />
 
         {/* Sitemaps */}
         <div className="text-white flex mx-16 justify-between items-center flex-wrap ">
@@ -76,7 +74,7 @@ const Footer = () => {
               Ipsum.
             </p>
             <a
-              className="border border-orange-400 text-green-500 font-bold text-lg py-2 px-4 rounded-full hover:text-white hover:bg-orange-400"
+              className="border border-custom-orange text-custom-green font-bold text-lg py-2 px-4 rounded-full hover:text-white hover:bg-custom-orange"
               href="#"
             >
               Read More
@@ -84,33 +82,45 @@ const Footer = () => {
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Shop Info</h5>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-custom-orange" href="#">
               About Us
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-custom-orange" href="#">
               Contact Us
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-custom-orange" href="#">
               Privacy Policy
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-custom-orange" href="#">
               Terms & Conditions
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-custom-orange" href="#">
               Returns Policy
             </a>
-            <a className="opacity-60" href="#">
+            <a className="opacity-60 hover:text-custom-orange" href="#">
               FAQs & Help
             </a>
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Account</h5>
-            <span className="opacity-60">My Account</span>
-            <span className="opacity-60">Shop Details</span>
-            <span className="opacity-60">ShoppingCart</span>
-            <span className="opacity-60">Wishlist</span>
-            <span className="opacity-60">Order History</span>
-            <span className="opacity-60">Intenational Order</span>
+            <a href="#" className="opacity-60 hover:text-custom-orange">
+              My Account
+            </a>
+            <a href="#" className="opacity-60 hover:text-custom-orange">
+              Shop Details
+            </a>
+            <a href="#" className="opacity-60 hover:text-custom-orange">
+              ShoppingCart
+            </a>
+            <a href="#" className="opacity-60 hover:text-custom-orange">
+              Wishlist
+            </a>
+            <a href="#" className="opacity-60 hover:text-custom-orange">
+              Order History
+            </a>
+            <a href="#" className="opacity-60 hover:text-custom-orange">
+              Intenational Order
+            </a>
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Contact</h5>
@@ -119,7 +129,7 @@ const Footer = () => {
             <span className="opacity-60">Phone: +0123 4567 8910</span>
             <span className="opacity-60">Payment Accepted</span>
             <span className="mt-6">
-              <img src="./public/payment-methods.png" alt="image" />
+              <img src="/payment-methods.png" alt="image" />
             </span>
           </div>
         </div>
@@ -128,8 +138,8 @@ const Footer = () => {
             © Fruitables, All rights reserved.
           </span>
           <p className="text-center md:text-right">
-            Designed By <span className="text-green-500">Mohsin Ali</span>{" "}
-            Distributed By <span className="text-green-500">Mohsin Ali</span>
+            Designed By <span className="text-custom-green">Mohsin Ali</span>{" "}
+            Distributed By <span className="text-custom-green">Mohsin Ali</span>
           </p>
         </div>
       </div>

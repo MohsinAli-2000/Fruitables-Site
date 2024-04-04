@@ -25,7 +25,7 @@ export default function SimpleSlider() {
     ]
   };
   return (
-    <div className="mx-16">
+    <div className="mx-16 text-center">
       <Slider {...settings}>
         <div>
           <VegetableCard />

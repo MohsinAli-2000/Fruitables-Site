@@ -17,19 +17,19 @@ const Header = () => {
       <div style={bgimage} className="py-10 px-4 lg:px-16 relative">
         <div className="lg:flex flex-col lg:flex-row items-center justify-between">
           <div className="lg:w-1/2 lg:pr-8">
-            <p className="text-orange-400 text-lg lg:text-2xl font-semibold mb-2 lg:mb-4">
+            <p className="text-custom-orange text-lg lg:text-2xl font-semibold mb-2 lg:mb-4">
               100% Organic Foods
             </p>
-            <h1 className="text-green-500 text-4xl lg:text-6xl font-extrabold my-4 lg:my-12">
+            <h1 className="text-custom-green text-4xl lg:text-6xl font-extrabold my-4 lg:my-12">
               Organic Veggies &<br /> Fruits Foods
             </h1>
             <div className="flex flex-col lg:flex-row w-full">
               <input
-                className="text-lg lg:text-2xl border border-orange-400 border-b-2 rounded-tl-full rounded-bl-full p-3 lg:p-5 mb-2 lg:mb-0 lg:mr-2 min-w-8"
+                className="text-lg lg:text-xl border border-custom-orange border-b-2 rounded-tl-full rounded-bl-full py-2 px-4 lg:py-3 lg:px-4 mb-2 lg:mb-0 min-w-8"
                 type="text"
                 placeholder="Search"
               />
-              <button className="text-white text-lg lg:text-2xl border border-orange-400 border-b-2 p-3 lg:p-5 rounded-tr-full rounded-br-full bg-green-500 hover:bg-orange-400">
+              <button className="text-white text-lg lg:text-xl border border-custom-orange border-b-2 py-2 px-4 lg:px-4 lg:py-3 rounded-tr-full rounded-br-full bg-custom-green hover:bg-custom-orange">
                 Submit Now
               </button>
             </div>
@@ -38,7 +38,7 @@ const Header = () => {
             <Carousel showThumbs={false}>
               <div className="relative group">
                 <img
-                  className="w-full h-auto bg-orange-400 border rounded-2xl"
+                  className="w-full h-auto bg-custom-orange border rounded-2xl"
                   src="/Fruits.png"
                   alt="fruits"
                 />
