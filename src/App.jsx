@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Topbar from "./Topbar";
-<<<<<<< HEAD
+
 import Navbar from "./Navbar";
 import Shop from "./Pages/Shop";
 import Home from "./Pages/Home";
 import ShopDetails from "./Pages/ShopDetails";
-=======
+
 import Menu from "./Menu";
 
 import BonusCard from "./BonusCard";
@@ -15,7 +15,6 @@ import TextSection from "./TextSection";
 import ReviewCard from "./ReviewCard";
 import Acheivements from "./Acheivements";
 
->>>>>>> d03ba62456b92e8c47336ae64948dded1b1a2bfc
 import Footer from "./Footer";
 import Cart from "./Pages/Cart";
 import Checkout from "./Pages/Checkout";
@@ -25,7 +24,7 @@ import Contact from "./Pages/Contact";
 function App() {
   return (
     <>
-<<<<<<< HEAD
+
       <Router>
         <Topbar />
         <Navbar />
@@ -41,7 +40,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-=======
+
       <Topbar />
       <Navbar />
       <Header />
@@ -115,7 +114,7 @@ function App() {
       <ClientSlider />
 
       <Footer />
->>>>>>> d03ba62456b92e8c47336ae64948dded1b1a2bfc
+
     </>
   );
 }
