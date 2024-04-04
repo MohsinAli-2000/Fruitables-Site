@@ -20,7 +20,11 @@ const Navbar = () => {
 
   return (
     <>
+<<<<<<< HEAD
       <div className="mx-0 px-16 z-20 bg-white p-2 sticky top-0">
+=======
+      <div className="mx-0 px-16 z-20 bg-white p-2 sticky top-0">           
+>>>>>>> d03ba62456b92e8c47336ae64948dded1b1a2bfc
         {/* Navbar for small devices */}
         <div className="flex justify-between items-center mt-3 lg:mt-5 mb-3 lg:mb-5 lg:hidden relative">
           <h1 className="text-custom-green cursor-pointer text-4xl lg:text-5xl font-extrabold">

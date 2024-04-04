@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 
 const FacilityCard = ({ icon, title, description }) => {
   return (
+<<<<<<< HEAD
     <div className="flex flex-col md:flex-row items-center justify-center w-full px-3 mt-4 md:w-1/2 lg:w-3/12 mb-4">
       <div className="flex flex-col items-center justify-center bg-custom-white rounded-lg h-full w-full py-6 px-4 my-8">
         <div className="bg-custom-orange p-6 rounded-full">
@@ -16,6 +17,15 @@ const FacilityCard = ({ icon, title, description }) => {
           {title}
         </h2>
         <p className="text-lg font-light text-custom-black ">{description}</p>
+=======
+    <div className="flex flex-col md:flex-row items-center justify-center w-full px-4 md:w-1/2 lg:w-1/4 mb-4">
+      <div className="flex flex-col items-center justify-center bg-gray-200 border rounded-lg py-6 px-4 my-8 mx-2">
+        <div className="bg-orange-500 p-6 rounded-full">
+          <FontAwesomeIcon className="text-4xl text-white" icon={icon} />
+        </div>
+        <h2 className="py-4 text-xl font-semibold opacity-80">{title}</h2>
+        <p className="text-lg font-thin opacity-80">{description}</p>
+>>>>>>> d03ba62456b92e8c47336ae64948dded1b1a2bfc
       </div>
     </div>
   );

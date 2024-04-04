@@ -82,6 +82,7 @@ const Footer = () => {
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Shop Info</h5>
+<<<<<<< HEAD
             <a className="opacity-60 hover:text-custom-orange" href="#">
               About Us
             </a>
@@ -98,11 +99,30 @@ const Footer = () => {
               Returns Policy
             </a>
             <a className="opacity-60 hover:text-custom-orange" href="#">
+=======
+            <a className="opacity-60 hover:text-orange-400" href="#">
+              About Us
+            </a>
+            <a className="opacity-60 hover:text-orange-400" href="#">
+              Contact Us
+            </a>
+            <a className="opacity-60 hover:text-orange-400" href="#">
+              Privacy Policy
+            </a>
+            <a className="opacity-60 hover:text-orange-400" href="#">
+              Terms & Conditions
+            </a>
+            <a className="opacity-60 hover:text-orange-400" href="#">
+              Returns Policy
+            </a>
+            <a className="opacity-60 hover:text-orange-400" href="#">
+>>>>>>> d03ba62456b92e8c47336ae64948dded1b1a2bfc
               FAQs & Help
             </a>
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Account</h5>
+<<<<<<< HEAD
             <a href="#" className="opacity-60 hover:text-custom-orange">
               My Account
             </a>
@@ -121,6 +141,14 @@ const Footer = () => {
             <a href="#" className="opacity-60 hover:text-custom-orange">
               Intenational Order
             </a>
+=======
+            <a href="#" className="opacity-60 hover:text-orange-400">My Account</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Shop Details</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">ShoppingCart</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Wishlist</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Order History</a>
+            <a href="#" className="opacity-60 hover:text-orange-400">Intenational Order</a>
+>>>>>>> d03ba62456b92e8c47336ae64948dded1b1a2bfc
           </div>
           <div className="flex flex-col max-w-60 mt-4">
             <h5 className="text-2xl opacity-100">Contact</h5>
