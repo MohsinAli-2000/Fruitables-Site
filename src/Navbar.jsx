@@ -36,13 +36,19 @@ const Navbar = () => {
             <div className="text-lg opacity-80 absolute left-0 w-full top-full">
               <ul className="bg-gray-100 opacity-100 transition-opacity duration-300 ease-in-out rounded-md text-black p-2 lg:p-4">
                 <li className="mr-2 lg:mr-6 cursor-pointer text-custom-green">
-                  <Link to="/">Home</Link>
+                  <Link to="/" onClick={toggleMenu}>
+                    Home
+                  </Link>
                 </li>
                 <li className="mr-2 lg:mr-6 cursor-pointer hover:text-custom-green">
-                  <Link to="/shop">Shop</Link>
+                  <Link to="/shop" onClick={toggleMenu}>
+                    Shop
+                  </Link>
                 </li>
                 <li className="mr-2 lg:mr-6 cursor-pointer hover:text-custom-green">
-                  <Link to="/shop-details">Shop Details</Link>
+                  <Link to="/shop-details" onClick={toggleMenu}>
+                    Shop Details
+                  </Link>
                 </li>
                 <li className="mr-2 lg:mr-6 cursor-pointer hover:text-custom-green">
                   <div
@@ -56,16 +62,24 @@ const Navbar = () => {
                         {/* Set z-index for the dropdown menu */}
                         <ul className="bg-custom-white duration-300 ease-in-out rounded-md text-custom-black p-2 lg:p-4 z-50">
                           <li className="cursor-pointer w-full hover:text-custom-green hover:bg-custom-orange">
-                            <Link to="/cart">Cart</Link>
+                            <Link to="/cart" onClick={toggleMenu}>
+                              Cart
+                            </Link>
                           </li>
                           <li className="cursor-pointer hover:text-custom-green hover:bg-custom-orange">
-                            <Link to="/checkout">Checkout</Link>
+                            <Link to="/checkout" onClick={toggleMenu}>
+                              Checkout
+                            </Link>
                           </li>
                           <li className="cursor-pointer hover:text-custom-green hover:bg-custom-orange">
-                            <Link to="/testimonials">Testimonials</Link>
+                            <Link to="/testimonials" onClick={toggleMenu}>
+                              Testimonials
+                            </Link>
                           </li>
                           <li className="cursor-pointer hover:text-custom-green hover:bg-custom-orange">
-                            <Link to="/404-page">404 page</Link>
+                            <Link to="/404-page" onClick={toggleMenu}>
+                              404 page
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -73,7 +87,9 @@ const Navbar = () => {
                   </div>
                 </li>
                 <li className="mr-2 lg:mr-6 hover:text-custom-green">
-                  <Link to="/contact">Contact</Link>
+                  <Link to="/contact" onClick={toggleMenu}>
+                    Contact
+                  </Link>
                 </li>
               </ul>
             </div>
