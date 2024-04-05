@@ -32,10 +32,10 @@ const NotFound = () => {
     </div>
 
 
-    <div className="flex flex-col justify-center mx-96 gap-y-4 items-center my-36">
-        <h2 className="text-custom-orange text-8xl"><FontAwesomeIcon icon={faTriangleExclamation} /></h2>
-        <h3 className="text-custom-black text-8xl font-extrabold">404</h3>
-        <p className="text-custom-black text-4xl font-bold">Page Not Found</p>
+    <div className="flex flex-col justify-center mx-16 lg:mx-96 gap-y-4 items-center my-36">
+        <h2 className="text-custom-orange text-5xl md:text-8xl"><FontAwesomeIcon icon={faTriangleExclamation} /></h2>
+        <h3 className="text-custom-black text-5xl lg:text-8xl font-extrabold">404</h3>
+        <p className="text-custom-black text-2xl lg:text-4xl font-bold">Page Not Found</p>
         <p className="text-custom-black text-xl text-center">We’re sorry, the page you have looked for does not exist in our website! Maybe go to our home page or try to use a search?</p>
         <a href="/" className="text-custom-black text-xl font-semibold border border-custom-orange px-6 py-4 hover:text-white hover:bg-custom-orange rounded-full">Go Back To Home</a>
     </div>
