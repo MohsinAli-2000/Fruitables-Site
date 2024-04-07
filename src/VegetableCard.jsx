@@ -30,7 +30,8 @@ const VegetableCard = ({
             href="#"
             className="flex items-center w-fit border rounded-full border-custom-green text-custom-green hover:bg-custom-orange font-bold py-2 my-3 px-4"
           >
-            <FontAwesomeIcon className="mr-2" icon={faLock} /> <span className="hover:text-white">Add to Cart</span> 
+            <FontAwesomeIcon className="mr-2" icon={faLock} />{" "}
+            <span className="hover:text-white">Add to Cart</span>
           </a>
         </div>
       </div>

@@ -10,6 +10,8 @@ import Checkout from "./Pages/Checkout";
 import Testimonials from "./Pages/Testimonials";
 import Notfound from "./Pages/NotFound";
 import Contact from "./Pages/Contact";
+import GoTop from "./GoTop";
+
 function App() {
   return (
     <>
@@ -26,6 +28,8 @@ function App() {
           <Route path="/404-page" element={<Notfound />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+
+        <GoTop />
         <Footer />
       </Router>
     </>

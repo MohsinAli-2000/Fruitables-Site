@@ -34,7 +34,7 @@ const FruitCard = ({
             <p className="text-lg text-custom-black font-semibold">$4.99/Kg</p>
             <a
               href="#"
-              className="flex items-center w-fit border rounded-full border-custom-orange text-custom-green hover:bg-custom-orange font-bold py-2 my-3 px-4"
+              className="flex items-center w-fit border rounded-full border-custom-orange text-custom-green hover:bg-custom-orange transition-all duration-1000 font-bold py-2 my-3 px-4"
             >
               <FontAwesomeIcon className="mr-2" icon={faLock} />{" "}
               <span className="hover:text-white">Add to Cart</span>

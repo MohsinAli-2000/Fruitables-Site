@@ -101,28 +101,28 @@ const Shop = () => {
                   <div className="flex my-2 w-full justify-between">
                     <li className="text-custom-green hover:text-custom-orange cursor-pointer">
                       <FontAwesomeIcon className="mx-3" icon={faAppleWhole} />
-                      Apples
+                      Oranges
                     </li>{" "}
                     <span className="ml-40">(5)</span>
                   </div>
                   <div className="flex my-2 w-full justify-between">
                     <li className="text-custom-green hover:text-custom-orange cursor-pointer">
                       <FontAwesomeIcon className="mx-3" icon={faAppleWhole} />
-                      Apples
+                      Grapes
                     </li>{" "}
                     <span className="ml-40">(3)</span>
                   </div>
                   <div className="flex my-2 w-full justify-between">
                     <li className="text-custom-green hover:text-custom-orange cursor-pointer">
                       <FontAwesomeIcon className="mx-3" icon={faAppleWhole} />
-                      Apples
+                      Strawberries
                     </li>{" "}
                     <span className="ml-40">(6)</span>
                   </div>
                   <div className="flex my-2 w-full justify-between">
                     <li className="text-custom-green hover:text-custom-orange cursor-pointer">
                       <FontAwesomeIcon className="mx-3" icon={faAppleWhole} />
-                      Apples
+                      Banana
                     </li>{" "}
                     <span className="ml-40">(2)</span>
                   </div>

@@ -99,9 +99,8 @@ const Home = () => {
         <h1 className="text-center text-5xl font-bold opacity-70 my-4">
           Our Client Saying!
         </h1>
-
-        <ClientSlider />
       </div>
+      <ClientSlider />
     </>
   );
 };

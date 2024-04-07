@@ -38,7 +38,7 @@ const Testimonials = () => {
           Our Client Saying!
         </h1>
       </div>
-      <div className="w-full -mt-24">
+      <div>
         <ClientSlider />
       </div>
     </>
