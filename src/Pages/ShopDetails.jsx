@@ -75,7 +75,7 @@ const ShopDetails = () => {
           <div className="flex flex-col md:flex-row">
             <div>
               <img
-                src="/public/brocoli.jpg"
+                src="/brocoli.jpg"
                 alt="image"
                 className="border w-full h-full rounded-xl"
               />
