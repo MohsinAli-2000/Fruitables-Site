@@ -191,7 +191,7 @@ const ShopDetails = () => {
                 <div>
                   <div className="my-4 flex">
                     <div>
-                      <img src="/public/avatar.jpg" alt="image" />
+                      <img src="/avatar.jpg" alt="image" />
                     </div>
                     <div className="mx-4">
                       <span>{formattedDate}</span>
@@ -214,7 +214,7 @@ const ShopDetails = () => {
                   </div>
                   <div className="my-4 flex">
                     <div>
-                      <img src="/public/avatar.jpg" alt="image" />
+                      <img src="/avatar.jpg" alt="image" />
                     </div>
                     <div className="mx-4">
                       <span>{formattedDate}</span>
